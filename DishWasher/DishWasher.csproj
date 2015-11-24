@@ -44,15 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bowl.cs" />
-    <Compile Include="cup.cs" />
+    <Compile Include="Cup.cs" />
     <Compile Include="Glassware.cs" />
     <Compile Include="Dish.cs" />
     <Compile Include="Highball.cs" />
     <Compile Include="ICanGetClean.cs" />
     <Compile Include="ICanHoldLiquid.cs" />
+    <Compile Include="Knife.cs" />
     <Compile Include="Plate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Silverware.cs" />
+    <Compile Include="Spoon.cs" />
     <Compile Include="Tableware.cs" />
     <Compile Include="WaterGoblet.cs" />
   </ItemGroup>
