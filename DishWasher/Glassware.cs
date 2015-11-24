@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace DishWasher
 {
-    class Glassware : Dish
+    class Glassware : Dish, ICanHoldLiquid
     {
-        
+        public void canHoldLiquid()
+        {
+            Console.WriteLine("I may be full of water");
+        }
 
     }
 }
