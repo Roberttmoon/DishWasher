@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bowl.cs" />
+    <Compile Include="CleaningTool.cs" />
     <Compile Include="Cup.cs" />
+    <Compile Include="DishWasher.cs" />
     <Compile Include="Glassware.cs" />
     <Compile Include="Dish.cs" />
     <Compile Include="Highball.cs" />
