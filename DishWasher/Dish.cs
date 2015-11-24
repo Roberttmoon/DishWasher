@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace DishWasher
 {
-    public abstract class Dish
+    public abstract class Dish : ICanGetClean
     {
         int weight;
         bool machineWash;
         bool clean;
+        public void cleanable()
+        {
+            Console.WriteLine("Brushy Brushy Brushy");
+        }
     }
 }
