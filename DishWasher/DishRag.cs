@@ -8,7 +8,7 @@ namespace DishWasher
 {
     class DishRag : CleaningTool, ICanHoldLiquid
     {
-        public void canHoldLiqued()
+        public void canHoldLiquid()
         {
 
         }
