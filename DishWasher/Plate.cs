@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DishWasher
 {
-    class Plate : Tableware
+    class Plate : China
     {
     }
 }
