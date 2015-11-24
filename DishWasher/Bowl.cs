@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DishWasher
 {
-    class Bowl : Tableware
+    class Bowl : China, ICanHoldLiquid
     {
+        public void canHoldLiquid()
+        {
+            Console.WriteLine("Im a plate that can hold liquid");
+        }
     }
 }
