@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DishWasher
 {
-    class cup : Glassware
+    class Cup : Glassware
     {
+
     }
 }
