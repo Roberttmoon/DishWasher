@@ -8,5 +8,10 @@ namespace DishWasher
 {
     class Silverware : Dish
     {
+        public Silverware()
+        {
+            sides.Add("top");
+            sides.Add("bottom");
+        }
     }
 }

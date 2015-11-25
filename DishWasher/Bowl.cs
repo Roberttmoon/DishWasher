@@ -12,5 +12,10 @@ namespace DishWasher
         {
             Console.WriteLine("Im a plate that can hold liquid");
         }
+        public Bowl()
+        {
+            sides.Add("inside");
+            sides.Add("outside");
+        }
     }
 }

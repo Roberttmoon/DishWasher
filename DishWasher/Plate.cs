@@ -8,5 +8,10 @@ namespace DishWasher
 {
     class Plate : China
     {
+        public Plate()
+        {
+            sides.Add("top");
+        }
     }
+
 }

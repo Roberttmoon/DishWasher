@@ -12,6 +12,12 @@ namespace DishWasher
         {
             Console.WriteLine("I may be full of water");
         }
+        public Glassware()
+        {
+            sides.Add("inside");
+            sides.Add("outside");
+            sides.Add("bottom");
+        }
 
     }
 }
