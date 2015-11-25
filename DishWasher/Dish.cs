@@ -15,7 +15,6 @@ namespace DishWasher
         public void cleanable()
         {
             
-         
         }
     }
 }

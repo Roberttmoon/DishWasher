@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DishWasher
 {
-    class Silverware : Dish
+    public abstract class Silverware : Dish
     {
         public Silverware()
         {

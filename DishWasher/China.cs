@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DishWasher
 {
-    public class China : Dish
+    public abstract class China : Dish
     {
         public China()
         {

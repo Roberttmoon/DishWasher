@@ -11,9 +11,10 @@ namespace DishWasher
 
         static void Main(string[] args)
         {
-            China china = new China();
+
             DishWasher dWasher = new DishWasher();
-            dWasher.hobart( china);
+            Spoon tableSpoon1 = new Spoon();
+            dWasher.hobart(tableSpoon1 /*dish Goes Here*/);
         }
     }
 }
