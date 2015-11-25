@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BCA287CD-A50C-44A8-8101-DB75AA0AE0F9}</ProjectGuid>
+    <ProjectGuid>{5AF08229-543D-4547-B316-BDCCF6290A6E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DishWasher</RootNamespace>
-    <AssemblyName>DishWasher</AssemblyName>
+    <RootNamespace>StupidBullshit</RootNamespace>
+    <AssemblyName>StupidBullshit</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,26 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bowl.cs" />
-    <Compile Include="DishBrush.cs" />
-    <Compile Include="CleaningTool.cs" />
-    <Compile Include="Cup.cs" />
-    <Compile Include="DishRag.cs" />
-    <Compile Include="DishSoap.cs" />
-    <Compile Include="DishWasher.cs" />
-    <Compile Include="Glassware.cs" />
-    <Compile Include="Dish.cs" />
-    <Compile Include="Highball.cs" />
-    <Compile Include="ICanGetClean.cs" />
-    <Compile Include="ICanHoldLiquid.cs" />
-    <Compile Include="Knife.cs" />
-    <Compile Include="Plate.cs" />
+    <Compile Include="StupidClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Silverware.cs" />
-    <Compile Include="Spoon.cs" />
-    <Compile Include="China.cs" />
-    <Compile Include="WaterGoblet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

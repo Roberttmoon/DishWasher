@@ -11,9 +11,11 @@ namespace DishWasher
         int weight;
         bool machineWash;
         bool clean;
+        public List<string> sides = new List<string>();
         public void cleanable()
         {
-            Console.WriteLine("Brushy Brushy Brushy");
+            
+         
         }
     }
 }

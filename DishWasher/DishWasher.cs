@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace DishWasher
 {
-    class DishWasher
+    public class DishWasher
     {
+        public void hobart(Dish dish)
+        {
+            for (int side = 0; side < dish.sides.Count; side++)
+            {
+                Console.WriteLine("wasihing side " + dish.sides[side]);
 
+            }
+
+        }
     }
 }
