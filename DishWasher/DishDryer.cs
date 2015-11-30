@@ -12,10 +12,10 @@ namespace DishWasher
         {
             for (int side = 0; side < dish.sides.Count; side++)
             {
-                Console.WriteLine("wasihing side " + dish.sides[side]);
+                Console.WriteLine("drying side " + dish.sides[side]);
 
             }
-
+            
         }
 
 

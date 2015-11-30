@@ -9,11 +9,11 @@ namespace DishWasher
     public abstract class Dish : ICanGetClean
     {
         bool clean;
-        bool dry;
+        public bool dry;
         public List<string> sides = new List<string>();
         public void cleanable()
         {
-            
+            clean = true;
         }
     }
 }

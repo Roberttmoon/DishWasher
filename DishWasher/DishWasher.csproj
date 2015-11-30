@@ -57,6 +57,7 @@
     <Compile Include="Highball.cs" />
     <Compile Include="ICanGetClean.cs" />
     <Compile Include="ICanHoldLiquid.cs" />
+    <Compile Include="ICanBeDryed.cs" />
     <Compile Include="Knife.cs" />
     <Compile Include="Plate.cs" />
     <Compile Include="Program.cs" />
