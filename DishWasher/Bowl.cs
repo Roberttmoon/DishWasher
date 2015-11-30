@@ -8,9 +8,9 @@ namespace DishWasher
 {
     class Bowl : China, ICanHoldLiquid
     {
+        bool liquidFiled;
         public void canHoldLiquid()
         {
-            Console.WriteLine("Im a plate that can hold liquid");
         }
         public Bowl()
         {

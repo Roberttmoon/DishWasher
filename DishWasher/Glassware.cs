@@ -8,9 +8,9 @@ namespace DishWasher
 {
     class Glassware : Dish, ICanHoldLiquid
     {
+        bool liquidFiled;
         public void canHoldLiquid()
         {
-            Console.WriteLine("I may be full of water");
         }
         public Glassware()
         {

@@ -8,9 +8,8 @@ namespace DishWasher
 {
     public abstract class Dish : ICanGetClean
     {
-        int weight;
-        bool machineWash;
         bool clean;
+        bool dry;
         public List<string> sides = new List<string>();
         public void cleanable()
         {

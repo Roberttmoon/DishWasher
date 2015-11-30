@@ -13,8 +13,10 @@ namespace DishWasher
         {
 
             DishWasher dWasher = new DishWasher();
-            Spoon tableSpoon1 = new Spoon();
+            Dish tableSpoon1 = new Spoon();
             dWasher.hobart(tableSpoon1 /*dish Goes Here*/);
+
+
         }
     }
 }
